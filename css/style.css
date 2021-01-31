@@ -1,0 +1,420 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/* nav css start */
+.navbar {
+    border-bottom: 1px solid #E4E6EA;
+    background-color: #FFFFFF;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5D6981;
+    padding: 5px 21px;
+    margin: 6px 0;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5D6981;
+    border: 1px solid #9FABBA;
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin: 5px 0;
+}
+
+.navbar-nav .nav-item ul {
+    display: flex;
+    margin-top: 12px;
+}
+
+.navbar-nav .nav-item ul li {}
+
+.navbar-nav .nav-item ul li a.head_fb {
+    padding: 3px 9px;
+    border: 1px solid #3C5A99;
+    border-radius: 50%;
+    color: #3C5A99;
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-item ul li a.head_tw {
+    padding: 3px 6px;
+    border: 1px solid #28AAE1;
+    border-radius: 50%;
+    color: #28AAE1;
+    margin-left: 10px;
+}
+
+
+/* nav css end */
+
+/* hero css start */
+
+#hero {
+    background-color: #F4F5F7;
+}
+
+.hero_content {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.hero_content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #0149A1;
+    margin-top: 130px;
+}
+
+.hero_content h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    color: #5D6981;
+    margin-top: 12px;
+}
+
+.hero_content a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #aaaaaa;
+    padding: 10px 40px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hero_content img {}
+
+/* hero css end */
+
+/* about css start */
+
+.about_card {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about_card img {}
+
+.about_card h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #5D6981;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.about_card p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #7C8CA0;
+
+}
+
+/* about css end */
+
+/* price css start */
+#price {
+    background: url(../images/price_bg.jpg) center/cover no-repeat;
+}
+
+.price_content {
+    text-align: center;
+}
+
+.price_content a {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #aaaaaa;
+    margin-top: 340px;
+    margin-bottom: 140px;
+    box-shadow: 0 0 30px 40px #ffffff;
+    padding: 10px 40px;
+    border-radius: 40px;
+    background-color: #0149A1;
+    color: #FFFFFF;
+    border: 1px solid #0149A1;
+    transition: all linear .2s;
+}
+
+.price_content a:hover {
+    background-color: #fff;
+    color: #0149A1;
+    transition: all linear .3s;
+}
+
+/* price css end */
+
+/* work css start */
+#work {
+    background-color: #0149A1;
+}
+
+.work_header {
+    text-align: center;
+}
+
+.work_header h4 {
+    margin-top: 100px;
+    margin-bottom: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.work_header p {
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #5483BB;
+}
+
+.work_content_1 {}
+
+.work_content_1 img {
+    margin-top: 20px;
+}
+
+.work_content_2 {}
+
+.work_content_2 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.work_content_3 {
+    text-align: center;
+}
+
+.work_content_3 a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0149A1;
+    padding: 10px 40px;
+    margin-top: 80px;
+    border-radius: 40px;
+    margin-bottom: 100px;
+}
+
+/* work css end */
+
+/* testimonial css start */
+#testimonial {
+    padding-bottom: 40px;
+}
+
+.testimonial_card {
+    text-align: center;
+}
+
+.testimonial_card img {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial_card p {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    color: #7C8CA0;
+}
+
+.testimonial_card h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #7C8CA0;
+    margin-bottom: 50px;
+}
+
+.testimonial_card h6 a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #7C8CA0;
+    border-bottom: 1px solid #7C8CA0;
+}
+
+.slick-dots li {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #CBD1D9;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.slick-dots li.slick-active button::after {
+    position: absolute;
+    content: ' ';
+    top: 3px;
+    left: 3px;
+    height: 12px;
+    width: 12px;
+    background-color: #7C8CA0;
+    border-radius: 50%;
+}
+
+.slick-dots li button:before {
+    content: ' ';
+}
+
+/* testimonial css end */
+
+/* team css start */
+#team {
+    background-color: #EDEFF1;
+}
+
+.team_header {
+    text-align: center;
+}
+
+.team_header h4 {
+    margin-top: 100px;
+    margin-bottom: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #0149A1;
+}
+
+.team_header p {
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #7C8CA0;
+}
+
+.team_card {
+    text-align: center;
+}
+
+.team_card img {}
+
+.team_card h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #5D6981;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.team_card p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #7C8CA0;
+}
+
+.team_button {
+    text-align: center;
+}
+
+.team_button a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 40px;
+    margin-top: 80px;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    background-color: #FF2D55;
+}
+
+/* team css end */
+
+/* footer css start */
+#footer {
+    background-color: #0149A1;
+    padding-top: 70px;
+}
+
+.footer_content_link {}
+
+.footer_content_link ul {}
+
+.footer_content_link ul li {
+    margin-bottom: 5px;
+}
+
+.footer_content_link ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer_content_content {
+    text-align: center;
+}
+
+.footer_content_content p {
+    font-family: 'Domine', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D4DBEA;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.footer_content_content p span {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* footer css end */
